@@ -25,7 +25,7 @@ public class CreateCampaingsTest extends BaseClass
 		String Campaingsname = lib.getExcelData("CampaingsName", 0, 0);
 		wlib.implicitWait();
 		HomePage hp=new HomePage(f);
-		hp.getProductTab().click();
+		hp.getProductTab().click() ;
 		
 		ProductPage pp=new ProductPage(f);
 		pp.getCreateProduct().click();
