@@ -12,7 +12,7 @@ public class CreateCampaingsPage  extends WebDriverCommonlib
 {
 
 	@FindBy(xpath="//img[@title=\"Create Campaign...\"]")
-	private WebElement CreateCampaing;
+	private  WebElement CreateCampaing;
 	
 	@FindBy(xpath="//input[@accesskey=\"S\"]")
 	private WebElement saveButton;
