@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.VTiger.Organizations.CreateOrganizationTest">
+        <methods>
+          <include name="TestCreateOrganization"/>
+          <include name="loginPage"/>
+          <include name="logout"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.VTiger.Organizations.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
