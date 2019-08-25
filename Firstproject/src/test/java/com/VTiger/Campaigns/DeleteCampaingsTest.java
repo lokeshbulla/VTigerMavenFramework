@@ -47,8 +47,8 @@ public class DeleteCampaingsTest extends BaseClass
     	}
     	else
     	{
-    		
     		System.out.println("Campaings is Deleted Successfully ");
+    		
     	}
     	
 		
